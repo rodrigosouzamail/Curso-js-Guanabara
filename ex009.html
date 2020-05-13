@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País</title>
+</head>
+
+<body>
+    <h1>De qual país você é?</h1>
+    Digite o nome do seu país: <input type="text" id="txtpais" placeholder="Digite o nome do país"/> <input type="button" value="Verificar" onclick="checar()">
+    <div id='res'>
+
+    </div>
+    <script>
+        function checar(){
+        var pais = window.document.querySelector('input#txtpais')
+        var res = window.document.querySelector('div#res')
+        var final = (txtpais.value)
+        res.innerHTML = `<p>O País digitado foi <strong>${final}</strong></p>`
+
+        if (final == 'Brasil'){
+           res.innerHTML += `Você é Brasileiro`
+           
+        }
+        else {
+            if(final == 'EUA'){
+               res.innerHTML += `Você é Americano`
+            }
+            if(final == 'Estados Unidos'){
+                res.innerHTML += `Você é Americano`
+            }
+
+           else{
+            res.innerHTML += `Você é estrangeiro`
+        }
+        }
+        }
+
+
+    </script>
+
+</body>
+</html>
