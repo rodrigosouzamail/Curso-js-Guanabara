@@ -1,9 +1,11 @@
 body {
-    background:;
+    background: rgb(70,142,236);
+     
 }
 header{
     color: white;
     text-align: center;
+
 
 }
 
@@ -15,10 +17,6 @@ section{
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
 
-}
-div {
-    text-align: center;
-    margin-top: 8px;
 }
 footer {
     color: white;
