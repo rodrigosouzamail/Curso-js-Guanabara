@@ -19,6 +19,18 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.596);
 }
 
+div p#max {
+    font-size: 10px  ;
+    display: block;
+    float: right;
+    margin-top: 0px;
+    margin-right: 280px;
+    
+}
+div p { 
+    margin-bottom: 0px;
+
+}
 footer {
 
     color: white;
