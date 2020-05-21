@@ -15,7 +15,7 @@ function carregar(){
         img.src = '_imagens/tarde.png'
 }else{
         img.src = '_imagens/noite.png'
-        document.body.style.background = '#001549'
+        document.body.style.background = '#001549' 
     //Boa noite!
 }
 }
